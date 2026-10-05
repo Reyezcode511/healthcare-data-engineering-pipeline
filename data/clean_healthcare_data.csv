@@ -1,0 +1,8 @@
+patient_id,age,gender,diagnosis,hospital,treatment_cost
+1001,45.0,Male,Diabetes,Central Hospital,1500.0
+1002,32.0,Female,Hypertension,City Hospital,1200.0
+1003,67.0,Male,Diabetes,Central Hospital,2100.0
+1005,43.0,Male,Hypertension,City Hospital,1450.0
+1006,41.0,Female,Asthma,General Hospital,950.0
+1007,73.0,Male,Diabetes,Central Hospital,2500.0
+1008,38.0,Female,Hypertension,City Hospital,1400.0
