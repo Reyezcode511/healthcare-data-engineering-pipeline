@@ -95,6 +95,20 @@ excluded from Git. Running the scripts recreates the database.
 
 ## Spark status
 
+Spark aggregation was tested in Google Colab using Spark 4.0.4.
+
+The notebook `notebooks/healthcare_spark_pipeline.ipynb`:
+- Loads the cleaned CSV from GitHub.
+- Creates diagnosis and hospital summaries using PySpark.
+- Verifies 7 records and a total treatment cost of 11,100.
+
+The summary totals match the Pandas and SQLite results.
+
+The optional Spark stage in the local Python script has not
+been tested locally. PySpark is not required for the local
+Pandas and SQLite stages.
+
+
 An optional Spark aggregation stage is included in `pipeline.py`.
 It has not been tested in this local setup.
 
